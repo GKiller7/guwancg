@@ -37,4 +37,6 @@ class Lesson extends Model
     {
         return $this->belongsTo(Registration::class);
     }
+
+    public $timestamps = false;
 }

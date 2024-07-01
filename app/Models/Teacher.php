@@ -14,4 +14,6 @@ class Teacher extends Model
     public function lessons(){
         return $this->hasMany(Lesson::class);
     }
+
+    public $timestamps = false;
 }
